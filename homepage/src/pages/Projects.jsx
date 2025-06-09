@@ -21,7 +21,7 @@ const projects = [
 
 const Projects = () => (
   <section id="projects" className="px-4 py-20 ">
-    <h2 className="text-4xl font-semibold mb-10 text-white text-center">My Projects</h2>
+    <h2 className="text-4xl font-semibold mb-10 text-white text-center transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">My Projects</h2>
     <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
       {projects.map((project, idx) => (
         <div
