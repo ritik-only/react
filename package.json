@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/ritik-only/react/issues"
   },
-  "homepage": "https://github.com/ritik-only/react#readme"
+  "homepage": "https://github.com/ritik-only/react#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4"
+  }
 }
